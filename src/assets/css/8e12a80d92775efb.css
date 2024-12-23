@@ -1,0 +1,213 @@
+.meta_meta__q6dDu {
+    --meta-avatar-size: 2rem;
+    --meta-spacing: var(--diamond-spacing-sm);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--diamond-font-size-sm);
+    margin: calc(var(--meta-spacing) * -.5)
+}
+
+@media (min-width: 768px) {
+    .meta_meta__q6dDu {
+        --meta-avatar-size: 3rem;
+        --meta-spacing: var(--diamond-spacing)
+    }
+}
+
+.meta_meta__col__ogZ0S {
+    padding: calc(var(--meta-spacing) * .5)
+}
+
+.meta_meta__col--avatar__3pXMZ {
+    flex-shrink: 0;
+    min-width: calc(var(--meta-avatar-size) + var(--meta-spacing))
+}
+
+.meta_meta__col--author___vXz0 {
+    flex: 1 1 auto
+}
+
+@media (min-width: 768px) {
+    .meta_meta__col--author___vXz0 {
+        flex: 0 0 auto
+    }
+}
+
+.meta_meta__col--published__MXCvW .meta_meta__content__4STMx {
+    font-weight: var(--diamond-font-weight-base)
+}
+
+@media (min-width: 768px) {
+    .meta_meta__col--published__MXCvW {
+        flex: 1 1 auto;
+        padding-left: var(--diamond-spacing-lg)
+    }
+
+    .meta_meta__col--published__MXCvW .meta_meta__content__4STMx {
+        font-weight: var(--diamond-font-weight-bold)
+    }
+}
+
+.meta_meta__col--tags__b_t_Q {
+    display: none;
+    text-align: right
+}
+
+@media screen and (min-width: 768px) {
+    .meta_meta__col--tags__b_t_Q {
+        display: block
+    }
+}
+
+.meta_meta--summary__GU8A3 {
+    --meta-avatar-size: 1.5rem
+}
+
+.meta_meta--summary__GU8A3 .meta_meta-item__title__JieD6, .meta_meta--summary__GU8A3 .meta_meta__col--published__MXCvW, .meta_meta--summary__GU8A3 .meta_meta__col--tags__b_t_Q {
+    display: none
+}
+
+@media (min-width: 768px) {
+    .meta_meta--summary__GU8A3 {
+        --meta-avatar-size: 3rem
+    }
+}
+
+.avatars_avatars___s7Qo {
+    display: flex
+}
+
+.avatars_avatars___s7Qo > div:not(:first-child) {
+    box-shadow: 0 0 0 .15rem var(--color-white);
+    margin-left: calc(var(--diamond-spacing) * -1)
+}
+
+.avatar_avatar__FcpIR {
+    height: 3rem;
+    min-width: 3rem;
+    overflow: hidden;
+    width: 3rem
+}
+
+.avatar_avatar--small__AA__q {
+    height: 2rem;
+    min-width: 2rem;
+    width: 2rem
+}
+
+@media (min-width: 768px) {
+    .avatar_avatar--large-desktop__i1WnC {
+        height: 4rem;
+        min-width: 4rem;
+        width: 4rem
+    }
+}
+
+.avatar_avatar--responsive__8uIUJ {
+    height: auto;
+    min-width: 0;
+    width: 100%
+}
+
+.avatar_avatar--responsive__8uIUJ img {
+    display: block;
+    width: 100%
+}
+
+.avatar_avatar--radius__Fnkb8 {
+    border-radius: .5em
+}
+
+.emoji_emoji__xX27z {
+    --emoji-size: 6.5em
+}
+
+.emoji_emoji__img__N8HCn, .emoji_emoji__xX27z {
+    height: var(--emoji-size);
+    width: var(--emoji-size)
+}
+
+.emoji_emoji__img__N8HCn {
+    display: block
+}
+
+.emoji_emoji--sm__A7riB {
+    --emoji-size: 4.5em
+}
+
+.emoji_emoji--xs__6vtXW {
+    --emoji-size: 3em
+}
+
+.emoji_emoji--inline__q_qAP {
+    --emoji-size: 1.25em;
+    height: 1.25em
+}
+
+.hero_hero__HBO7b {
+    background: rgba(0, 0, 0, .1);
+    border-radius: .5em;
+    overflow: hidden;
+    padding: var(--diamond-spacing-fluid);
+    position: relative;
+    text-align: center
+}
+
+.hero_hero__content__Uyf9n {
+    position: relative
+}
+
+.hero_hero__emojis__1Z5Ol {
+    margin: 0 auto var(--diamond-spacing);
+    max-width: 30em
+}
+
+.hero_hero__summary__UWFQt {
+    display: none;
+    font-size: var(--diamond-font-size-xxl);
+    font-weight: var(--diamond-font-weight-light);
+    margin: auto;
+    max-width: 35em;
+    text-wrap: balance
+}
+
+@media (min-width: 768px) {
+    .hero_hero__summary__UWFQt {
+        display: block
+    }
+}
+
+.hero_hero--red__07Ync {
+    background: color-mix(in srgb, var(--color-red), transparent 80%)
+}
+
+.hero_hero--orange__EdkKA {
+    background: color-mix(in srgb, var(--color-orange), transparent 80%)
+}
+
+.hero_hero--yellow__dBZLL {
+    background: color-mix(in srgb, var(--color-yellow), transparent 80%)
+}
+
+.hero_hero--green__Kpb5j {
+    background: color-mix(in srgb, var(--color-green), transparent 80%)
+}
+
+.hero_hero__HBO7b --aqua {
+    background: color-mix(in srgb, var(--color-aqua), transparent 80%)
+}
+
+.hero_hero--blue__BqlLM {
+    background: color-mix(in srgb, var(--color-blue), transparent 80%)
+}
+
+.hero_hero--purple__GMr1Z {
+    background: color-mix(in srgb, var(--color-purple), transparent 80%)
+}
+
+.emojis_emojis____vyb {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}

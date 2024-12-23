@@ -1,0 +1,197 @@
+.emoji_emoji__xX27z {
+    --emoji-size: 6.5em
+}
+
+.emoji_emoji__img__N8HCn, .emoji_emoji__xX27z {
+    height: var(--emoji-size);
+    width: var(--emoji-size)
+}
+
+.emoji_emoji__img__N8HCn {
+    display: block
+}
+
+.emoji_emoji--sm__A7riB {
+    --emoji-size: 4.5em
+}
+
+.emoji_emoji--xs__6vtXW {
+    --emoji-size: 3em
+}
+
+.emoji_emoji--inline__q_qAP {
+    --emoji-size: 1.25em;
+    height: 1.25em
+}
+
+.Hero_hero__HWr9z {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr
+}
+
+.Hero_hero__image__cT1K7 {
+    border-radius: 1.5rem;
+    display: grid;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    overflow: hidden
+}
+
+.Hero_hero__image__cT1K7 svg {
+    height: 100vw;
+    max-height: 602px;
+    place-self: center
+}
+
+.Hero_hero__content__xTLrO {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    padding: var(--diamond-spacing-fluid) var(--diamond-spacing);
+    text-align: center
+}
+
+.Hero_hero__title__EU3Gr {
+    color: var(--color-purple-text);
+    font-size: 2.25rem
+}
+
+@media (min-width: 600px) {
+    .Hero_hero__title__EU3Gr {
+        font-size: 4rem
+    }
+}
+
+.Overflow_overflow__X477h {
+    --_overflow-width: none;
+    margin-inline: calc(var(--diamond-spacing) * -1);
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-height: none
+}
+
+.Overflow_overflow__X477h::-webkit-scrollbar {
+    display: none
+}
+
+.Overflow_overflow__content__TFgfv {
+    min-width: var(--_overflow-width);
+    overflow: hidden;
+    padding-inline: var(--diamond-spacing)
+}
+
+.Overflow_overflow--small-mobile-on__bJ4_s {
+    --_overflow-width: var(--overflow-width)
+}
+
+@media (min-width: 375px) {
+    .Overflow_overflow--mobile-on__JHH0d {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--mobile-off__IdhaO {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 480px) {
+    .Overflow_overflow--large-mobile-on__edg68 {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--large-mobile-off__Ql4dB {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 600px) {
+    .Overflow_overflow--small-tablet-on__jYu4I {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--small-tablet-off__AULwN {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 768px) {
+    .Overflow_overflow--tablet-on__x3v__ {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--tablet-off__U8_ye {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 1024px) {
+    .Overflow_overflow--large-tablet-on__XcbMw {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--large-tablet-off__fRaQ5 {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 1280px) {
+    .Overflow_overflow--small-desktop-on__rpesW {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--small-desktop-off__ybUt1 {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 1440px) {
+    .Overflow_overflow--desktop-on__VYM01 {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--desktop-off__7PDpQ {
+        --_overflow-width: none
+    }
+}
+
+@media (min-width: 1920px) {
+    .Overflow_overflow--large-desktop-on__2Av3M {
+        --_overflow-width: var(--overflow-width)
+    }
+
+    .Overflow_overflow--large-desktop-off__Z67JK {
+        --_overflow-width: none
+    }
+}
+
+.Lead_lead__vyPYA {
+    font-size: var(--diamond-font-size-xl);
+    font-weight: var(--diamond-font-weight-light)
+}
+
+@media (min-width: 1024px) {
+    .Lead_lead__vyPYA {
+        font-size: var(--diamond-font-size-xxl)
+    }
+}
+
+.LogoBlock_logo-block__X2OV0 {
+    align-items: center;
+    background: var(--diamond-theme-background);
+    display: flex;
+    padding: var(--diamond-spacing-sm) var(--diamond-spacing-sm)
+}
+
+.LogoBlock_logo-block__image__bRp7X {
+    display: block;
+    margin: 0 auto;
+    max-width: 8em;
+    padding: var(--diamond-spacing-sm) 0;
+    width: 100%
+}
+
+@media screen and (min-width: 600px) {
+    .LogoBlock_logo-block__image__bRp7X {
+        width: 75%
+    }
+}

@@ -1,0 +1,36 @@
+.emoji_emoji__xX27z {
+    --emoji-size: 6.5em
+}
+
+.emoji_emoji__img__N8HCn, .emoji_emoji__xX27z {
+    height: var(--emoji-size);
+    width: var(--emoji-size)
+}
+
+.emoji_emoji__img__N8HCn {
+    display: block
+}
+
+.emoji_emoji--sm__A7riB {
+    --emoji-size: 4.5em
+}
+
+.emoji_emoji--xs__6vtXW {
+    --emoji-size: 3em
+}
+
+.emoji_emoji--inline__q_qAP {
+    --emoji-size: 1.25em;
+    height: 1.25em
+}
+
+.Lead_lead__vyPYA {
+    font-size: var(--diamond-font-size-xl);
+    font-weight: var(--diamond-font-weight-light)
+}
+
+@media (min-width: 1024px) {
+    .Lead_lead__vyPYA {
+        font-size: var(--diamond-font-size-xxl)
+    }
+}
